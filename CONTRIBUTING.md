@@ -3,6 +3,9 @@
 ## Solutions
 
 There are usually several solutions to each problem.
+
+### Filename
+
 Each solution has a defined filename schema:
 
 `{problem}-{solution-name}.ts`,
@@ -16,7 +19,11 @@ For example, the are a solution to Problem #2 using a binet formula:
 
 `/src/solutions/002/002-binet.ts`.
 
-The schema is important for proper tests run.
+### Implementation
+
+The solution *must be* a named `main` export function. 
+
+The filename schema and function name is important for proper tests run.
 
 ## Tests
 
