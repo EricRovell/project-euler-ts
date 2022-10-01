@@ -1,0 +1,28 @@
+{
+	"name": "@project-euler/ts",
+	"version": "1.2.0",
+	"description": "Project Euler Solutions written in TypeScript",
+	"keywords": [ "math", "project-euler" ],
+	"homepage": "https://github.com/EricRovell/project-euler-ts",
+	"bugs": {
+		"url": "https://github.com/EricRovell/project-euler-ts/issues"
+	},
+	"license": "MIT",
+	"author": "Eric Rovell",
+	"repository": "github:EricRovell/project-euler-ts",
+	"scripts": {
+		"lint": "eslint src/**/*.ts",
+		"test": "npx vitest",
+		"typecheck": "tsc --noEmit true"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.38.0",
+		"@typescript-eslint/parser": "^5.38.0",
+		"eslint": "^8.24.0",
+		"glob": "^8.0.3",
+		"typescript": "^4.8.3",
+		"vitest": "^0.23.4"
+	},
+	"private": true,
+	"type": "module"
+}
