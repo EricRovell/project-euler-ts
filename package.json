@@ -12,7 +12,8 @@
 	"repository": "github:EricRovell/project-euler-ts",
 	"scripts": {
 		"lint": "eslint src/**/*.ts",
-		"test": "npx vitest",
+		"test": "npx vitest run",
+		"test:watch": "npm vitest",
 		"typecheck": "tsc --noEmit true"
 	},
 	"devDependencies": {
