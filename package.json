@@ -2,7 +2,10 @@
 	"name": "@project-euler/ts",
 	"version": "1.2.0",
 	"description": "Project Euler Solutions written in TypeScript",
-	"keywords": [ "math", "project-euler" ],
+	"keywords": [
+		"math",
+		"project-euler"
+	],
 	"homepage": "https://github.com/EricRovell/project-euler-ts",
 	"bugs": {
 		"url": "https://github.com/EricRovell/project-euler-ts/issues"
@@ -17,6 +20,7 @@
 		"typecheck": "tsc --noEmit true"
 	},
 	"devDependencies": {
+		"@types/node": "^18.8.0",
 		"@typescript-eslint/eslint-plugin": "^5.38.0",
 		"@typescript-eslint/parser": "^5.38.0",
 		"eslint": "^8.24.0",
