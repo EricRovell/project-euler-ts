@@ -28,5 +28,15 @@ export const testdata = {
 			input: 100,
 			output: 25164150
 		}
+	],
+	"008": [
+		{
+			input: 4,
+			output: 5832,
+		},
+		{
+			input: 13,
+			output: 23514624000,
+		}
 	]
 };
