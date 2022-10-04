@@ -38,5 +38,11 @@ export const testdata = {
 			input: 13,
 			output: 23514624000,
 		}
+	],
+	"013": [
+		{
+			input: 10,
+			output: 5537376230
+		}
 	]
 };
