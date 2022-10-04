@@ -10,6 +10,8 @@ Usually there are more than one solution. The purpose of this project not just s
 
 ## Tests
 
+Install the dependencies using `pnpm i` command (assuming you are using `pnpm`).
+
 To run the tests use `pnpm run test` command.
 
 [project-euler]: https://projecteuler.net/
