@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { counter, range } from "./index";
+import { counter, gcd, lcm, range } from "./index";
 
 describe("Lib test", () => {
 	it("counter: no arguments", () => {
@@ -25,6 +25,16 @@ describe("Lib test", () => {
 		expect(generator.next().value).toEqual(27);
 		expect(generator.next().value).toEqual(32);
 		generator.return();
+	});
+	it("gcd", () => {
+		expect(gcd(20, 15, 10)).toBe(5);
+		expect(gcd(2940, 3150, 294)).toBe(42);
+		expect(gcd(13, 17)).toBe(1);
+	});
+	it("gcd", () => {
+		expect(lcm(2940, 3150, 2)).toBe(44100);
+		expect(lcm(6, 8, 30)).toBe(120);
+		expect(lcm(9, 45)).toBe(45);
 	});
 	it("range", () => {
 		expect([ ...range(4) ]).toEqual([ 0, 1, 2, 3 ]);
