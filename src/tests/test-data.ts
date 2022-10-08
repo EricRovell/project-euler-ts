@@ -1,4 +1,11 @@
-export const testdata = {
+interface TestData {
+	[key: `${number}`]: {
+		input: number,
+		output: number
+	}[]
+}
+
+export const testdata: TestData = {
 	"001": [
 		{
 			input: 10,
@@ -27,6 +34,16 @@ export const testdata = {
 		{
 			input: 100,
 			output: 25164150
+		}
+	],
+	"007": [
+		{
+			input: 6,
+			output: 13
+		},
+		{
+			input: 10001,
+			output: 104743
 		}
 	],
 	"008": [
