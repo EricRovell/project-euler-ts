@@ -66,6 +66,16 @@ export const testdata: TestData = {
 			output: 23514624000,
 		}
 	],
+	"010": [
+		{
+			input: 10,
+			output: 17
+		},
+		{
+			input: 2000000,
+			output: 142913828922
+		}
+	],
 	"013": [
 		{
 			input: 10,
